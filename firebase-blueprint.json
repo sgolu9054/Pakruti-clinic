@@ -1,0 +1,56 @@
+{
+  "databases": [
+    {
+      "databaseId": "ai-studio-71c49428-4988-4f70-bfe2-684e943e97ce",
+      "collections": [
+        {
+          "collectionId": "appointments",
+          "description": "Clinical appointments booked by registered family members",
+          "fields": [
+            {
+              "fieldId": "userId",
+              "type": "string",
+              "description": "Authenticated patient owner's Google UID"
+            },
+            {
+              "fieldId": "name",
+              "type": "string",
+              "description": "Patient full name"
+            },
+            {
+              "fieldId": "phone",
+              "type": "string",
+              "description": "Patient emergency contact or phone number"
+            },
+            {
+              "fieldId": "date",
+              "type": "string",
+              "description": "Preferred medical appointment date"
+            },
+            {
+              "fieldId": "timeSlot",
+              "type": "string",
+              "description": "Chosen morning or evening time slot"
+            },
+            {
+              "fieldId": "reason",
+              "type": "string",
+              "description": "Symptom description or department selected"
+            },
+            {
+              "fieldId": "status",
+              "type": "string",
+              "description": "Booking status (Confirmed / Cancelled)"
+            },
+            {
+              "fieldId": "createdAt",
+              "type": "string",
+              "description": "Date & Time timestamp when booked"
+            }
+          ]
+        }
+      ],
+      "firestoreRulesFile": "firestore.rules"
+    }
+  ]
+}

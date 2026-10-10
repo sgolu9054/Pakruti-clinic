@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Prakruti Family Clinic",
+  "description": "Premium patient-oriented family healthcare clinic in Rabodi, Thane West, Maharashtra. Natural and trusted medical consultations with 4.9 stars Google rating.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
